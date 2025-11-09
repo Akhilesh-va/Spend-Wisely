@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Mindful Expenses</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Your spends</string>
+    <string name="nav_manual_entry">Track manually</string>
+    <string name="nav_reports">Reports</string>
+
+    <!-- Dashboard -->
+    <string name="auto_tracking_active">Auto-tracking active</string>
+    <string name="auto_tracking_inactive">Auto-tracking paused</string>
+    <string name="expenses_tracked_today">%1$d expenses tracked today</string>
+    <string name="enable_auto_tracking">Enable auto-tracking</string>
+    <string name="remaining_budget_today">%1$s left today</string>
+    <string name="daily_budget_progress">%1$s of %2$s</string>
+    <string name="manual_entry_prompt">Add cash or missed transactions</string>
+    <string name="dashboard_adjust_budget">Adjust budget</string>
+    <string name="today_section_title">Today\'s activity</string>
+    <string name="empty_state_title">Nothing logged yet</string>
+    <string name="empty_state_body">Spend as usual and we\'ll take care of the tracking.</string>
+
+    <!-- Manual entry -->
+    <string name="manual_entry_title">Log manual expense</string>
+    <string name="manual_amount_label">Amount</string>
+    <string name="manual_category_label">Category</string>
+    <string name="manual_merchant_label">Merchant (optional)</string>
+    <string name="manual_save_cta">Save expense</string>
+    <string name="manual_hint">Most expenses are captured automatically. Use this only for cash or missed detections.</string>
+    <string name="manual_notes_label">Notes (optional)</string>
+    <string name="manual_recent_merchants">Quick fill</string>
+
+    <!-- Reports -->
+    <string name="reports_title">Spending insights</string>
+    <string name="reports_accuracy">%1$s auto-tracking accuracy</string>
+    <string name="reports_toggle_daily">Daily</string>
+    <string name="reports_toggle_weekly">Weekly</string>
+    <string name="reports_toggle_monthly">Monthly</string>
+    <string name="reports_section_spending_trends">Spending trends</string>
+    <string name="reports_section_category_breakdown">Category breakdown</string>
+    <string name="reports_section_highlights">Highlights</string>
+    <string name="reports_empty_state">Hang tight - your insights will appear once a few expenses are logged.</string>
+    <string name="reports_accuracy_help">Higher accuracy means fewer manual entries.</string>
+    <string name="dashboard_budget_dialog_title">Adjust daily budget</string>
+    <string name="dashboard_budget_hint">Enter new daily budget</string>
+    <string name="dashboard_budget_save">Save</string>
+    <string name="dashboard_budget_cancel">Cancel</string>
+    <string name="dashboard_budget_updated">Budget updated</string>
+    <string name="dashboard_budget_update_failed">Couldn\'t update budget: %1$s</string>
+    <string name="dashboard_budget_invalid_input">Enter a valid amount greater than zero.</string>
+    <string name="dashboard_enable_auto_tracking_failed">Couldn\'t open notification access settings: %1$s</string>
+    <string name="dashboard_manual_delete">Delete expense</string>
+    <string name="dashboard_manual_delete_success">Manual expense deleted</string>
+    <string name="dashboard_manual_delete_failed">Couldn\'t delete expense: %1$s</string>
+    <string name="app_tagline">Overspending ends here.</string>
+    <string name="dashboard_greeting">Here’s your financial snapshot for today</string>
+    <string name="reports_subheading">Performance %1$s</string>
+    <string name="reports_total_spend">Total spend %1$s</string>
+    <string name="reports_transactions_count">%1$d transactions recorded</string>
+    <string name="reports_engagement_title">Tracking mix</string>
+    <string name="reports_engagement_manual">Manual entries</string>
+    <string name="reports_engagement_auto">Auto captured</string>
+</resources>
